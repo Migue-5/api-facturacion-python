@@ -1,0 +1,21 @@
+# Entornos virtuales (Muy importante no subirlos)
+venv/
+env/
+.venv/
+ENV/
+
+# Archivos de Python (Temporales de compilación)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Variables de entorno (Seguridad: Contraseñas de DB)
+.env
+
+# Configuración de editores (Opcional pero recomendado)
+.vscode/
+.idea/
+
+# Archivos de base de datos local (Si usas SQLite o dumps de XAMPP)
+*.sql
+*.sqlite3
